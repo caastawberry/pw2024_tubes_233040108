@@ -1,0 +1,213 @@
+body {
+    line-height: 1.5;
+}
+
+.warna1 {
+    background-color: rgb(136, 96, 138);
+}
+
+.warna2 {
+    background-color: #613659;
+}
+
+.warna3 {
+    background-color: #5A3E79;
+}
+
+.banner {
+    height: 98vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/banner.jpg');
+    background-size: 100%;
+}
+
+.highlighted-kategori {
+    height: 250px;
+}
+
+.kategori-ramen {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('upload/produk/foto1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-minuman {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/Es\ teh.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-nasi {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/nasigoreng.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-baso {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/baso.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-burger {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/burger.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-jus {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/jus.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: #fff;
+}
+
+.no-decoration:hover {
+    color: #613659;
+}
+
+.text-harga {
+    font-size: 22px;
+    color: black bold;
+}
+
+.form-area {
+    padding-top: 5px;
+}
+
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+    background: rgb(136, 96, 138);
+}
+
+.left {
+    background: #613659;
+    padding: 210px 93px;
+}
+
+.left h2 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-style: 48px;
+}
+
+.left h2 span {
+    font-weight: 100;
+}
+
+.right {
+    padding: 70px 100px;
+    position: relative;
+}
+
+.right i {
+    position: absolute;
+    font-style: 80px;
+    left: -6px;
+    top: 50%;
+    color: rgb(136, 96, 138);
+}
+
+.form-control {
+    border: 1px solid #252525;
+}
+
+.right button {
+    border: 2px solid #613659;
+    border-radius: 10px;
+    background: rgb(136, 96, 138);
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    border: 2px solid #613659;
+    background: #613659;
+}
+
+
+.footer {
+    background-color: rgb(136, 96, 138);
+    padding: 70px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 25px;
+}
+
+.footer-col h4 {
+    padding-left: 25px;
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    border-color: rgb(136, 96, 138);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: black;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+
+}

@@ -4,13 +4,35 @@
     $query_select = 'select * from user';
     $run_query_select = mysqli_query($conn, $query_select);
 
-?>
+    // Cek jika ada parameter delete
+    if(isset($_GET['delete'])){
 
+        //proses delete data
+        $query_delete = 'delete from user where id_user = "'.$_GET['delete'].'" ';
+        $run_query_delete = mysqli_query($conn, $query_delete);
+
+        if($run_query_delete){
+            echo "<script>window.location = 'user.php'</script>";
+        }else{
+            echo "<script>alert('Data gagal di hapus')</script";
+        }
+    }
+?>  
+    <style>
+        .btn{
+            border:1px solid;
+            width: 40px;
+            display:inline-block;
+            background-color: #613659;
+            color:#fff;
+            border-radius:3px;
+        }
+    </style>
 <div class="content">
     <div class="container">
         <h3 class="page-title">User</h3>
        <div class="card">
-       <a href="user_add.php" class="btn" title="Tambah Data"><i class="fa fa-plus"></i></a>
+       <a href="user_add.php" class="btn"  title="Tambah Data"><i class="fa fa-plus"></i></a>
 
         <table class="table">
             <thead>
@@ -47,4 +69,3 @@
     </div>
 </div>
 
-<?php require_once 'footer_template.php'; ?>
