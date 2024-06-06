@@ -19,11 +19,8 @@ $run_query_select = mysqli_query($conn, $query_select);
   </head>
   <body>
     <?php require 'navbar.php'; ?>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container">
+
+    <div class="container" style="margin-top: 99px">
 
     <h2 align="center">Seblak</h2>
             <hr>
@@ -32,7 +29,7 @@ $run_query_select = mysqli_query($conn, $query_select);
                 while($row = mysqli_fetch_array($run_query_select)){
             ?>
 
-            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6">
                 <div class="card text-center ">
                     <img src="upload/produk/<?= $row ['foto'] ?>">
                     <div class="card-body">

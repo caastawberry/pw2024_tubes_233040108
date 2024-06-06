@@ -24,40 +24,27 @@ body {
     height: 250px;
 }
 
-.kategori-ramen {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('upload/produk/foto1.jpg');
+.kategori-makanan {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('upload/produk/makanan.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .kategori-minuman {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/Es\ teh.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('upload/produk/minuman.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.kategori-nasi {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/nasigoreng.jpg');
+.kategori-seblak {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('upload/produk/seblak.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.kategori-baso {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/baso.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.kategori-burger {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/burger.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.kategori-jus {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('asset/img/jus.jpg');
-    background-size: cover;
-    background-position: center;
+.highlighted-kategori:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .no-decoration {
@@ -136,7 +123,7 @@ body {
 
 
 .footer {
-    background-color: rgb(136, 96, 138);
+    background-color: #252525;
     padding: 70px 0;
     position: relative;
     bottom: 0;

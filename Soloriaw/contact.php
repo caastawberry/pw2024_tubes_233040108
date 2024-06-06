@@ -15,7 +15,7 @@
      }
      .form-area{
         padding-top: 5px;
-        background: #613659;
+        background: #fff;
      }
      .row.single-form{
         box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);

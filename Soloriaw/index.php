@@ -29,7 +29,7 @@ $run_query_select = mysqli_query($conn, $query_select);
     <!-- banner -->
     <div class="container-fluid banner d-flex align-items-center" >
       <div class="container text-center text-white">
-        <h1>Laper? pesan disini aja</h1>
+        <h1>Welcome to Soloriaw</h1>
         <h3>Mau makan apa?</h3>
         <div class="col-md-8 offset-md-2">
         <form method="get" action="#menu">
@@ -62,17 +62,17 @@ $run_query_select = mysqli_query($conn, $query_select);
         <div class="row mt-4">
           
           <div class="col-md-4 mb-3">
-            <div class="highlighted-kategori kategori-burger d-flex justify-content-center align-items-center">
+            <div class="highlighted-kategori kategori-makanan d-flex justify-content-center align-items-center">
               <h4 class="text-white"><a class="no-decoration" href="makanan.php">Makanan</a></h4>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="highlighted-kategori kategori-jus d-flex justify-content-center align-items-center">
+            <div class="highlighted-kategori kategori-minuman d-flex justify-content-center align-items-center">
               <h4 class="text-white"><a class="no-decoration" href="minuman.php">Minuman</a></h4>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="highlighted-kategori kategori-jus d-flex justify-content-center align-items-center">
+            <div class="highlighted-kategori kategori-seblak d-flex justify-content-center align-items-center">
               <h4 class="text-white"><a class="no-decoration" href="seblak.php">Seblak</a></h4>
             </div>
           </div>
